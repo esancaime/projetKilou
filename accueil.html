@@ -4,56 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    
+    <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 
 
 <body>
 
     <header>
-        <div class="eltFlex">
-           <img src="image du logo" alt="Logo de Kilou" id="logoH">       
+        <div id="logoFlex">
+           <img src="images/logo_kilou.svg" alt="Logo de Kilou" id="logoH">       
         </div>
         
-        <h1 class="eltFlex">
+        <h1>
             KILOU
         </h1>
         
-        <ul class="eltFlex">
-            <li class="menu"> <a href="accueil.html" title="Vous déjà à l'accueil" id="ici"> <img src="images/icon_accueil.svg" alt="Accueil" class="icone"> Accueil </a></li>
-
-            <li class="menu"> <a href="pages/biens.html"> <img src="images/icon_biens.svg" alt="Biens" class="icone"> Biens </a></li>
-
-            <li class="menu"> <a href="pages/contact.html"> <img src="images/icon_contact.svg" alt="Contact" class="icone"> Contact </a></li>
-            
-            <li class="menu"> <a href="pages/equipe.html"> <img src="images/icon_team.svg" alt="Notre équipe" class="icone"> Equipe </a></li>
-
-            <li class="menu"> <a href="pages/about_us.html"> <img src="images/icon_about.svg" alt="Qui nous sommes" class="icone"> Qui nous sommes </a></li>
-
-
-        </ul>
+        <nav>
+            <ul>
+                <li class="menu court"> <a href="accueil.html" title="Vous êtes déjà à l'accueil" id="ici"> <img src="images/icon_accueil.svg" alt="Accueil" class="icone"> Accueil </a></li>
+    
+                <li class="menu court"> <a href="pages/biens.html"> <img src="images/icon_biens.svg" alt="Biens" class="icone"> Biens </a></li>
+    
+                <li class="menu court"> <a href="pages/contact.html"> <img src="images/icon_contact.svg" alt="Contact" class="icone"> Contact </a></li>
+                
+                <li class="menu court"> <a href="pages/equipe.html"> <img src="images/icon_team.svg" alt="Notre équipe" class="icone"> Equipe </a></li>
+    
+                <li class="menu long"> <a href="pages/about_us.html"> <img src="images/icon_about.svg" alt="Qui nous sommes" class="icone"> Qui nous sommes </a></li>
+    
+    
+            </ul>    
+        </nav>
 
     </header>
 
     <aside> 
         <h2 id="partenaire"> Partenaires </h2>
         
-        <div> <a href="pages/partenaire1.html"> <img src="images/logo_p1.jpg" alt="Logo P1" class="logo"> Partenaire 1 </a></div>
+        <div class="divLogo"> <a href="pages/partenaire1.html"> <img src="images/logo S.svg" alt="Logo P1" class="logo"> Partenaire 1 </a></div>
         
-        <div> <a href="pages/partenaire2.html"> <img src="images/logo_p2.jpg" alt="Logo P2" class="logo"> Partenaire 2 </a></div>
+        <div class="divLogo"> <a href="pages/partenaire2.html"> <img src="images/logo A.svg" alt="Logo P2" class="logo"> Partenaire 2 </a></div>
         
-        <div> <a href="pages/partenaire3.html"> <img src="images/logo_p3.jpg" alt="Logo P3" class="logo"> Partenaire 3 </a></div>
+        <div class="divLogo"> <a href="pages/partenaire3.html"> <img src="images/logo L.svg" alt="Logo P3" class="logo"> Partenaire 3 </a></div>
         
-        <div> <a href="pages/partenaire4.html"> <img src="images/logo_p4.jpg" alt="Logo P4" class="logo"> Partenaire 4 </a></div>
+        <div class="divLogo"> <a href="pages/partenaire4.html"> <img src="images/logo U.svg" alt="Logo P4" class="logo"> Partenaire 4 </a></div>
         
+        <div class="divLogo"> <a href="pages/partenaire5.html"> <img src="images/logo T.svg" alt="Logo P5" class="logo"> Partenaire 5 </a></div>
+
     </aside>
     
     <main>
-        <h2 id="titreMain"> Titre de la page </h2>
-    
-        <div> <img src="images/picto.jpg" alt="picto page"></div>
+        <div id="pictoDiv"><img src="images/picto.jpg" alt="picto page" id="picto"></div>
 
+        <h2 id="titreMain"> Bienvenue chez Kilou </h2>
+    
         <section>
-                <p>blabla</p>
+                <p>
+                    Suspendisse dignissim vitae ex ac varius. Ut sed neque porttitor, pretium nunc sit amet, pharetra sem. Praesent luctus euismod nunc eu luctus. Nulla molestie ullamcorper molestie. Nunc vitae leo porta, gravida nibh quis, interdum ante. Vestibulum sem enim, euismod accumsan pharetra ac, imperdiet ut elit. Suspendisse potenti. Praesent egestas magna a nisl dictum ultrices. In a elit vulputate, eleifend ante eu, luctus odio. Mauris sagittis nunc tempor tellus bibendum semper. Sed nunc nulla, tristique vel eros vitae, venenatis commodo libero. Nam mauris lacus, condimentum lobortis tempus et, semper at nisi. Praesent ut sodales libero, ut tempus lacus.
+                    <br>
+                    <br>
+                    Cras finibus lorem sed convallis congue. In dignissim ultricies nibh eu molestie. Aenean euismod varius feugiat. Nullam efficitur pharetra nisi malesuada luctus. Aliquam non semper tellus. Donec euismod mauris ac eleifend ornare. Duis tincidunt neque at lorem finibus pretium. Sed in neque quam. Quisque mattis aliquam ante tempus sagittis. Suspendisse non eleifend nibh.
+                    <br>
+                    Duis eu purus diam. Curabitur vitae metus sit amet mauris posuere interdum. Curabitur enim mi, feugiat at egestas ut, venenatis in ipsum. Pellentesque diam orci, fermentum a placerat vel, pharetra a massa. Nunc rutrum ex et felis consectetur, ac egestas massa fringilla. Cras nec est consectetur risus volutpat porttitor vel vel massa. Phasellus magna quam, commodo in nisl sed, blandit pretium turpis. Mauris facilisis leo at pellentesque pellentesque. Curabitur faucibus tortor ut fringilla venenatis. Praesent a eros enim. Etiam vitae vestibulum neque, eget posuere mauris. In dapibus ultrices vestibulum.
+                
+                </p>
 
         </section>
         
@@ -61,18 +76,19 @@
     
     <footer>
         
-        <div> 
+        <div class="piedPage"> 
             <p> 
                 KILOU <br>
-                Adresse <br>
-                Tel <br>
+                Place du Capitole <br>
+                31000 TOULOUSE<br>
+                05 17 42 31 31 <br>
             </p>     
         </div>
 
-        <div> <a href="mailto:kilou@entreprise.org" id="emailto"> E-mail: kilou@entreprise.org </a> </div>
+        <div class="piedPage"> <a href="mailto:kilou@entreprise.org" id="mailto"> E-mail: kilou@entreprise.org </a> </div>
 
-        <div>
-            <p>Copyright 2023 (C)</p>
+        <div class="piedPage">
+            <p id="copy">Copyright 2023 (C)</p>
         </div>
 
     </footer>

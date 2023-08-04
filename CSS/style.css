@@ -1,0 +1,152 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 2em;
+    background-image: url(../images/Toits_de_Toulouse.jpg);
+    background-size: 111%;
+    background-repeat: no-repeat;    
+}
+
+header{
+    grid-column: 1/3;
+    display:flex;
+    height:fit-content;
+}
+
+#logoFlex{
+    flex:1;
+    height:fit-content;
+    position:relative;
+    left: 8em;
+}
+
+#logoH{
+    width: 5em;
+    height: 5em;
+}
+
+h1{
+    flex: 1;
+    height:fit-content;
+}
+
+nav{
+    flex:6;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    height:fit-content;
+}
+
+.menu {
+    margin-left: 3em;
+    font-size:x-large;
+    height:fit-content;
+    border: 1px black solid;
+    box-shadow:  4px 4px 5px rgb(107, 107, 107);
+    border-radius: 15px;
+}
+
+li[class="menu court"]{
+    flex: 0 1 6em;
+    padding-left: 1em;
+}
+
+li[class="menu long"]{
+    flex: 0 1 12em;
+}
+
+a{
+    color:black;
+    text-decoration: none;  
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.menu:active{
+    box-shadow: none;
+}
+
+.icone{
+    width: 32px;
+    height: 32px;
+    position:relative;
+    top:0.2em;
+}
+
+aside{
+    grid-column: 1;
+    padding-left: 1em;
+    text-align: center;
+    background:linear-gradient(rgba(228, 155, 71, 0.5), rgba(255, 166, 0, 0.3), transparent);
+}
+
+#partenaire {
+    text-decoration: underline;
+}
+
+.divLogo{
+    font-size:x-large;
+}
+
+.logo{
+    width: 2em;
+    height: 2em;
+    margin-top: 2em;
+}
+
+main{
+    grid-column: 2;
+    padding-left: 1em;
+    background:linear-gradient(rgba(228, 155, 71, 0.5), rgba(255, 166, 0, 0.3), transparent);
+    height: 45em;
+}
+
+p{
+    text-align: justify;
+    padding: 0.5em;
+}
+
+#pictoDiv{
+    float: right;   
+}
+
+#picto{
+    width:20em;
+    height:10em;
+    margin: 0.6em;
+}
+
+footer {
+    display:flex;
+    grid-column: 1/3;
+    height: 6em;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    color:bisque;
+}
+
+.piedPage {
+    flex: auto;
+    padding-left: 5em;   
+}
+
+#mailto{
+    position:relative;
+    top : 2.5em;   
+    left:5em ;
+    color:bisque;
+}
+
+#copy{
+    position:relative;
+    top : 1.5em;
+    left: 20em;
+}
