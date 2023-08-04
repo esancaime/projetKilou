@@ -108,6 +108,10 @@ main{
     height: 45em;
 }
 
+.Paraph{
+    text-indent: 2em;
+}
+
 .sectBien{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -138,6 +142,7 @@ main{
 p{
     text-align: justify;
     padding: 0.5em;
+
 }
 
 #pictoDiv{
