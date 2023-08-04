@@ -1,0 +1,95 @@
+body{
+    background-image:url("../images/fond.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 18em 0.5em;
+
+    display: grid;
+    grid-template-columns: 30em 10em;
+    grid-template-rows: 2em 8em 6em 22em;
+    padding-left: 38em;
+    padding-top: 16em;
+    gap: 1em;
+}
+
+#name {
+    grid-row: 1;
+    grid-column: 1;
+    color:midnightblue;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#name p {
+    
+    background-color: rgb(255, 127, 80, 0.4) ;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+ }
+
+#titre {
+    grid-row: 2;
+    grid-column: 1;
+    padding:0.2em;
+    margin-top: 0.5em;
+    overflow-y: auto;
+
+}
+ 
+
+h1 {
+
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: midnightblue;
+}
+
+
+#image {
+
+    display:flex;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 2;
+    margin-left: 2em;
+    margin-top: 6em;
+}
+
+img {
+
+    border:solid;
+    border-width: 0.5em;
+    border-color:rgb(18, 182, 182);
+    height : 10em;
+
+}
+
+#description {
+
+    text-align: left;
+    text-indent: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color:midnightblue;
+    overflow-y: auto;
+}
+
+span{
+
+    font-weight: bold;
+    font-size: 1em;
+    color:rgb(15, 153, 153);
+
+}
+
+footer{
+
+    text-align: center;
+    font-size: 1.4em;
+    font-style:italic;
+    color: midnightblue;
+    grid-row: 4;
+    grid-column: 1/3;
+
+}
