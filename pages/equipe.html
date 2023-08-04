@@ -4,68 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notre equipe</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
 </head>
 
 
 <body>
 
     <header>
-        <div class="eltFlex">
-           <img src="../images/logo.svg" alt="Logo de Kilou" id="logoH">       
+        <div id="logoFlex">
+           <img src="../images/logo_kilou.svg" alt="Logo de Kilou" id="logoH">       
         </div>
         
-        <h1 class="eltFlex">
+        <h1>
             KILOU
         </h1>
         
-        <ul class="eltFlex">
-            <li class="menu"> <a href="../accueil.html"> <img src="../images/icon_accueil.svg" alt="Accueil" class="icone"> Accueil </a></li>
+        <nav>
+            <ul>
+                <li class="menu court"> <a href="accueil.html"> <img src="../images/icon_accueil.svg" alt="Accueil" class="icone"> Accueil </a></li>
 
-            <li class="menu"> <a href="biens.html"> <img src="../images/icon_biens.svg" alt="Biens" class="icone"> Biens </a></li>
+                <li class="menu court"> <a href="biens.html"> <img src="../images/icon_biens.svg" alt="Biens" class="icone"> Biens </a></li>
 
-            <li class="menu"> <a href="contact.html"> <img src="../images/icon_contact.svg" alt="Contact" class="icone"> Contact </a></li>
-            
-            <li class="menu"> <a href="equipe.html"  title="Vous êtes déjà sur la page notre équipe" id="ici"> <img src="../images/icon_team.svg" alt="Notre équipe" class="icone"> Equipe </a></li>
+                <li class="menu court"> <a href="contact.html"> <img src="../images/icon_contact.svg" alt="Contact" class="icone"> Contact </a></li>
+                
+                <li class="menu court"> <a href="equipe.html"  title="Vous êtes déjà sur la page notre équipe" id="ici"> <img src="../images/icon_team.svg" alt="Notre équipe" class="icone"> Equipe </a></li>
 
-            <li class="menu"> <a href="about_us.html"> <img src="../images/icon_about.svg" alt="Qui nous sommes" class="icone"> Qui nous sommes </a></li>
+                <li class="menu long"> <a href="about_us.html"> <img src="../images/icon_about.svg" alt="Qui nous sommes" class="icone"> Qui nous sommes </a></li>
 
-        </ul>
-
+            </ul>
+        </nav>
     </header>
 
 
     <aside> 
         <h2 id="partenaire"> Partenaires </h2>
         
-        <div> <a href="partenaire1.html"> <img src="../images/logo_p1.svg" alt="Logo P1" class="logo"> Partenaire 1 </a></div>
+        <div class="divLogo"> <a href="partenaire1.html"> <img src="../images/logo S.svg" alt="Logo P1" class="logo"> Partenaire 1 </a></div>
         
-        <div> <a href="partenaire2.html"> <img src="../images/logo_p2.svg" alt="Logo P2" class="logo"> Partenaire 2 </a></div>
+        <div class="divLogo"> <a href="partenaire2.html"> <img src="../images/logo A.svg" alt="Logo P2" class="logo"> Partenaire 2 </a></div>
         
-        <div> <a href="partenaire3.html"> <img src="../images/logo_p3.svg" alt="Logo P3" class="logo"> Partenaire 3 </a></div>
+        <div class="divLogo"> <a href="partenaire3.html"> <img src="../images/logo L.svg" alt="Logo P3" class="logo"> Partenaire 3 </a></div>
         
-        <div> <a href="partenaire4.html"> <img src="../images/logo_p4.svg" alt="Logo P4" class="logo"> Partenaire 4 </a></div>
+        <div class="divLogo"> <a href="partenaire4.html"> <img src="../images/logo U.svg" alt="Logo P4" class="logo"> Partenaire 4 </a></div>
         
+        <div class="divLogo"> <a href="partenaire5.html"> <img src="../images/logo T.svg" alt="Logo P5" class="logo"> Partenaire 5 </a></div>
+
     </aside>
     
     <main>
         <h2 id="titreMain"> L'équipe à votre service </h2>
     
-        <div> <img src="../images/picto.svg" alt="picto page"></div>
-
+        <div id="pictoDiv"><img src="../images/picto.jpg" alt="picto page" id="picto"></div>
         <section class="sectPerso">
-            <img src="../images/profil.png" alt="AnaisB" class="photoprofil">
+            <img src="../images/profil.png" alt="AnaisB">
             <p class="uneCol">BERTA</p>
             <p class="uneCol">Anaïs</p>
-            <a href="pageAnais.html" class="deuxCol"> Développeuse Full Stack </a>
-            <p class="deuxCol"> Description métier</p>
+            <a href="pageAnais.html" class="nomMetier uneCol"> - Développeuse Full Stack - </a>
+            <p class="descMetier"> Cras finibus lorem sed convallis congue. In dignissim ultricies nibh eu molestie. Aenean euismod varius feugiat. Nullam efficitur pharetra nisi malesuada luctus. Aliquam non semper tellus. Donec euismod mauris ac eleifend ornare. Duis tincidunt neque at lorem finibus pretium. Sed in neque quam. Quisque mattis aliquam ante tempus sagittis. Suspendisse non eleifend nibh.</p>
         </section>
 
         <section class="sectPerso">
-            <img src="../images/profilEste.png" alt="EstebanSA" class="photoprofil">
+            <img src="../images/profil2.gif" alt="EstebanSA">
             <p class="uneCol">SANCHEZ-ADAIME</p>
             <p class="uneCol">Esteban</p>
-            <a href="pageEsteban.html" class="deuxCol"> Développeur Full Stack </a>
-            <p class="deuxCol"> Description métier</p>
+            <a href="pageEsteban.html" class="nomMetier uneCol"> - Développeur Full Stack - </a>
+            <p class="descMetier"> Etiam congue maximus malesuada. Ut interdum ipsum vel sem blandit auctor. Vivamus pretium velit ac erat dignissim, ut ultricies nibh placerat. Donec suscipit tristique justo. Nullam in vehicula est. In purus ipsum, finibus sit amet porta non, scelerisque quis est. Fusce sed lorem in nulla aliquet pulvinar sed eget enim. Donec volutpat tortor ante, a laoreet purus tempus eget. Sed commodo nulla iaculis magna lobortis, a sagittis arcu laoreet.</p>
         </section>
 
         
@@ -73,19 +78,19 @@
     
     <footer>
         
-        <div> 
+        <div class="piedPage"> 
             <p> 
                 KILOU <br>
                 Place du Capitole <br>
-                31000 TOULOUSE <br>
-                05 17 42 31 31
+                31000 TOULOUSE<br>
+                05 17 42 31 31 <br>
             </p>     
         </div>
 
-        <div> <a href="mailto:kilou@entreprise.org" id="emailto"> E-mail: kilou@entreprise.org </a> </div>
+        <div class="piedPage"> <a href="mailto:kilou@entreprise.org" id="mailto"> E-mail: kilou@entreprise.org </a> </div>
 
-        <div>
-            <p>Copyright 2023 (C)</p>
+        <div class="piedPage">
+            <p id="copy">Copyright 2023 (C)</p>
         </div>
 
     </footer>
